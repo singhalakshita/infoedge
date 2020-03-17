@@ -1,0 +1,423 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 18 years old!", "18 years young!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me bot.", "I'm bot!", "I'm bot aka Tech With bot."],
+         "context_set": ""
+        },
+        {"tag": "attendance",
+         "patterns": ["Is it Mandatory to punch in and out both?"],
+         "responses": ["Yes, It is mandatory. If you don't punch either in the morning or evening or both then attendance for the day will be considered as absent."],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["When are you guys open", "what are your hours", "hours of operation"],
+         "responses": ["We are open 7am-4pm Monday-Friday!"],
+         "context_set": ""
+        },
+        {"tag": "shift_timings",
+         "patterns": ["What are the shift timings here", "How will i know my shift timings", "Hours of operation"],
+         "responses": ["We have 2 shift timings."],
+         "context_set": ""
+        },
+        {"tag": "shuttle",
+         "patterns": ["Is shuttle available for interns", "what are timings of shuttle", "hours of operation"],
+         "responses": ["Shuttle facility is available for all the employees","Shuttle is available from 8:30-10:30 in the morning and 5:30-7:30 in the evening."],
+         "context_set": ""
+        },
+        {"tag": "shuttle_timings",
+         "patterns": ["What are the timings for shuttle?"],
+         "responses": ["Morning 8:30 am to 10:30 am and Evening 5:50 pm to 8:00pm and 9:00 pm"],
+         "context_set": ""
+        },
+        {"tag": "shuttle_route",
+         "patterns": ["What is the route for shuttle?"],
+         "responses": ["Botanical Garden to Office (visa versa)"],
+         "context_set": ""
+        },
+        {"tag": "shuttle_charges",
+         "patterns": ["Are there any charges for shuttle?"],
+         "responses": ["No"],
+         "context_set": ""
+        },
+        {"tag": "shuttle_location_morning",
+         "patterns": ["What is the boarding location for shuttle in the morning?"],
+         "responses": ["Botanical Garden"],
+         "context_set": ""
+        },
+        {"tag": "shuttle_location_evening",
+         "patterns": ["What is the boarding location for shuttle in the evening?"],
+         "responses": ["Office Gate"],
+         "context_set": ""
+        },
+        {"tag": "attendance_process",
+         "patterns": ["What is the process for attendance?"],
+         "responses": ["Punch access card / Biometric "],
+         "context_set": ""
+        },
+        {"tag": "attendance_imp",
+         "patterns": ["Is it important to both punch in and punch out?"],
+         "responses": ["Yes"],
+         "context_set": ""
+        },
+        {"tag": "seat_allocation",
+         "patterns": ["What is the process for system allocation?","What is the process for seat allocation?"],
+         "responses": ["Supervisor will send email to IT help desk and HRBP"],
+         "context_set": ""
+        },
+        {"tag": "attendance_regularise",
+         "patterns": ["How will the attendance regularize?"],
+         "responses": ["Update regularization in I-Connect and get approval from supervisor "],
+         "context_set": ""
+        },
+        {"tag": "IT_desk",
+         "patterns": ["-How to contact the IT desk?","How to contact the IT Department?"],
+         "responses": ["Call **040 or login IT portal - https://infoedgeservicedesk.symphonysummit.com/MDLIncidentMgmt/EndUser_Dashboard.aspx"],
+         "context_set": ""
+        },
+        {"tag": "HR_desk",
+         "patterns": ["How to contact the HR desk?","How to contact the HR department?"],
+         "responses": ["Contact HR business partner"],
+         "context_set": ""
+        },
+        {"tag": "lunch_timings",
+         "patterns": ["What are the lunch timings?"],
+         "responses": ["1pm to 2 pm"],
+         "context_set": ""
+        }, 
+        {"tag": "lastday_attendance_regularise",
+         "patterns": ["What is the last date for attendance regularization?","What is the attandance regularization cycle to apply?"],
+         "responses": ["15th of every month"],
+         "context_set": ""
+        },
+        {"tag": "",
+         "patterns": ["workfromhome"],
+         "responses": ["Is work from home allowed?"],
+         "context_set": "Yes, after required approval"
+        },
+        {"tag": "noof_early_leave",
+         "patterns": ["How many early leavings are allowed?"],
+         "responses": ["There is no specific limit, however manager approval required for each early leaving."],
+         "context_set": ""
+        },
+        {"tag": "early_leave_time",
+         "patterns": ["What is the time for early leave?"],
+         "responses": ["after 7 working hour"],
+         "context_set": ""
+        },
+        {"tag": "late_come_time",
+         "patterns": ["What is the time for late coming?"],
+         "responses": ["login within 1 hour after your shift start time"],
+         "context_set": ""
+        },
+        {"tag": "leaves",
+         "patterns": ["Are leaves applicable on  monthly basis or yearly basis?"],
+         "responses": ["Leaves credits last day of month"],
+         "context_set": ""
+        },
+        {"tag": "system_issues",
+         "patterns": ["Who to contact for system replacement?","Who to contact for laptop replacement?","Who to contact for desktop replacement?","Who to contact for computer replacement?"],
+         "responses": ["Contact IT helpdesk and provide required approval"],
+         "context_set": ""
+        },
+        {"tag": "ilearn",
+         "patterns": ["How many courses can be done from ilearn?","What is ilearn?"],
+         "responses": ["1 paid course at a time and multiple free course","Platform to learn and upskill yourself "],
+         "context_set": ""
+        },
+        {"tag": "iconnect",
+         "patterns": ["What is iconnect?"],
+         "responses": ["portal for employee to access Company Policy, Manage Leaves, Organizational structure, Performance management etc."],
+         "context_set": ""
+        },
+        {"tag": "iconnect_login",
+         "patterns": ["How to login into iconnect?"],
+         "responses": ["with your email id and system password"],
+         "context_set": ""
+        },
+        {"tag": "shared drive",
+         "patterns": ["How to use shared drive?","How to access shared drive?"],
+         "responses": ["as per access approval, you can use shared drive","After necessary approval you can access shared drive"],
+         "context_set": ""
+        },
+        {"tag": "printout",
+         "patterns": ["How can we take a printout?"],
+         "responses": ["Login with your credential and take printout"],
+         "context_set": ""
+        },
+        {"tag": "apply leave",
+         "patterns": ["How to apply for a leave?","Where can I apply leave on Iconnect?"],
+         "responses": ["login I-Connect go to attendance and leave, and apply leave","Iconnect - Attendance & Leave - Apply Leave"],
+         "context_set": ""
+        },
+        {"tag": "leave balance",
+         "patterns": ["Where can I check my leave balance on Iconnect?"],
+         "responses": ["Iconnect - Attendance & Leave - Leave Balance"],
+         "context_set": ""
+        },
+        {"tag": "HR spoc",
+         "patterns": ["I sit in ETT, where can I meet my HR Spoc?"],
+         "responses": ["In HR helpdesk email, HR share availability in ETT "],
+         "context_set": ""
+        },
+        {"tag": "HR spoc",
+         "patterns": ["Who is my HR Spoc?"],
+         "responses": ["It was informed at the time of Induction (day of joining), or contact your manager for details"],
+         "context_set": ""
+        },
+        {"tag": "reimbursement form",
+         "patterns": ["Where can I find reimbursement form for my bills?"],
+         "responses": ["Iconnect - Policies and Documents - Forms "],
+         "context_set": ""
+        },
+        {"tag": "regularize early leaving",
+         "patterns": ["Do I need to regularize my early leaving also?"],
+         "responses": ["No, Not required"],
+         "context_set": ""
+        },
+        {"tag": "",
+         "patterns": ["How many regularization can I do in a month?"],
+         "responses": ["There is no specific limit for regularization in a month"],
+         "context_set": ""
+        },
+        {"tag": "regularize late coming",
+         "patterns": ["Is late coming also regularized?"],
+         "responses": ["Yes"],
+         "context_set": ""
+        },
+        {"tag": "Rent Receipts",
+         "patterns": ["I need help in filling Rent Receipts?"],
+         "responses": ["Helpdesk Query board @ login @ https://myapps.microsoft.com/infoedge.com, Select 'My Pay' app"],
+         "context_set": ""
+        },
+        {"tag": "Investment Proof",
+         "patterns": ["I need help in filling Investment Proof?"],
+         "responses": ["Helpdesk Query board @ login @ https://myapps.microsoft.com/infoedge.com Select 'My Pay' app"],
+         "context_set": ""
+        },
+        {"tag": "pay slip",
+         "patterns": ["Where can I see my pay slip?"],
+         "responses": ["login @ https://myapps.microsoft.com/infoedge.com Select 'My Pay' app"],
+         "context_set": ""
+        },
+        {"tag": "apply leave",
+         "patterns": ["I forgot to apply leave in last month, Can I apply now?","I Have forgot to apply my leaves/Ro last month, how can I do it know?"],
+         "responses": ["Yes, you can apply for leave till 15th of next month","you can apply for leave before 15th of next month, if salary deducted you will "],
+         "context_set": ""
+        },
+        {"tag": "Midyear Review",
+         "patterns": ["What is Midyear Review?"],
+         "responses": ["your half year performance review with reporting manager against set goals"],
+         "context_set": ""
+        },
+        {"tag": "rating Midyear review",
+         "patterns": ["Do I get rating in Midyear Review"],
+         "responses": ["Yes"],
+         "context_set": ""
+        },
+        {"tag": "Mediclaim spoc",
+         "patterns": ["Who is my Mediclaim Spoc?"],
+         "responses": ["You will receive email from HR, in case of any change in Medicalim spoc"],
+         "context_set": ""
+        },
+        {"tag": "leaves for 6 days",
+         "patterns": ["I have 6 days working days. How many leaves will be counted if I take leave from Friday till Monday"],
+         "responses": ["4 days leave (provided you have sufficient leave balance)"],
+         "context_set": ""
+        },
+        {"tag": "old appraisal forms",
+         "patterns": ["How can I see my old appraisal forms?"],
+         "responses": ["Iconnect - Performance Management"],
+         "context_set": ""
+        },
+        {"tag": "competencies",
+         "patterns": ["What are Competences in Appraisal form?","What are competencies in our KRA (s)?"],
+         "responses": ["Collaboration & Team Work,Focus on Results,Customer Focus,Execution Excellence,Communication,Intrapreneurial Orientation,Innovation and Openness to Learning"],
+         "context_set": ""
+        },
+        {"tag": "PAN Card",
+         "patterns": ["Where can I add my PAN Card details on Iconnect?"],
+         "responses": ["Iconnect - Personal Information - Update PAN & Bank Account"],
+         "context_set": ""
+        },
+        {"tag": "things in Iconnect",
+         "patterns": ["What all things can I do in Iconnect?"],
+         "responses": ["you can access Org. structure, your personal information, policies and documents, your performance management, Attendance & Leave, Helpdesk and exit management"],
+         "context_set": ""
+        },
+        {"tag": "Klib",
+         "patterns": ["What is Klib?"],
+         "responses": ["Klib is online library, from where you can borrow books to read"],
+         "context_set": ""
+        },
+        {"tag": "leaves not approved",
+         "patterns": ["My leaves are not approved yet, will their be any deduction in my salary?"],
+         "responses": ["Yes, you salary will be deducted for the not approved days"],
+         "context_set": ""
+        },
+        {"tag": "incorrect team",
+         "patterns": ["I am aligned with incorrect team on I connect, please correct it.","When can I apply for an IJP and what is the procedure?","My office I-Card is damaged/lost how can I get a new one?","I want to change my shift timings?"],
+         "responses": ["Contact your manager and HRBP"],
+         "context_set": ""
+        },
+        {"tag": "holiday calender",
+         "patterns": ["As per holiday calender 10th March is a holiday, is this for Mumbai as well?","Where I have see holiday calender on I connect?"],
+         "responses": ["Iconnect - Policies&Documents - Policies - Holiday Calender 2020"],
+         "context_set": ""
+        },
+        {"tag": "4 late comings",
+         "patterns": ["I have more than 4 late comming in this month, will my salary get deducted?"],
+         "responses": ["3 late coming is allowed and on 4th late coming Half day leave will be consumed, if you don’t have leave balance then your half day salary will be deducted"],
+         "context_set": ""
+        },
+        {"tag": "salary",
+         "patterns": ["There is a mismatch in my salary credited vs expected, whome to contact?","Helpdesk of tax, salary related queries?"],
+         "responses": ["Contact 'infoedge.payrollhelpdesk@myndsol.com' for any query related to tax and salary issues"],
+         "context_set": ""
+        },
+        {"tag": "medical insurance",
+         "patterns": ["I want support in applying for medical insurance?"],
+         "responses": ["Contact Mediclaim helpdesk number, if you don’t have helpdesk number please contact your manager or HRBP for details"],
+         "context_set": ""
+        },
+        {"tag": "leave balance debited",
+         "patterns": ["Why my leave balace has been debited, I havn't taken any leaves?"],
+         "responses": ["It might be due to more than 3 late coming, please contact your manager and HRBP for more details"],
+         "context_set": ""
+        },
+        {"tag": "suggestion/feedback",
+         "patterns": ["Were I have give suggetion/feedback related to admin/infra/HR/manager?"],
+         "responses": ["Email to your Manager / HRBP / Admin"],
+         "context_set": ""
+        },
+        {"tag": "Manager is on leave",
+         "patterns": ["My Manager is on leaves, from where can I get my leaves approved on I-connect?"],
+         "responses": ["Contact your HRBP and Skip for leave approval"],
+         "context_set": ""
+        },
+        {"tag": "status on IJP",
+         "patterns": ["I want to know the stauts on IJP i have applied for."],
+         "responses": ["The result of the interview discussion will be shared over an Email by the recruiter"],
+         "context_set": ""
+        },
+        {"tag": "withdraw PPF",
+         "patterns": ["I want to withdraw PPF, how can I do it?"],
+         "responses": ["Login to PF account with UAN and apply online"],
+         "context_set": ""
+        },
+        {"tag": "salary structure",
+         "patterns": ["I want to understand my salary structure"],
+         "responses": ["login @ https://myapps.microsoft.com/infoedge.com then select 'My Pay' app"],
+         "context_set": ""
+        },
+        {"tag": "amount assured for family",
+         "patterns": ["What is the amount assured for my family members?"],
+         "responses": ["It is as per work level, please reffer policy for more details"],
+         "context_set": ""
+        },
+        {"tag": "claim",
+         "patterns": ["What is the procedure for cashless mediclaim?","Who will be the contact person for the claim at the time of hospitalization?"],
+         "responses": ["Contact your TPA helpdesk, and follow the procedure"],
+         "context_set": ""
+        },
+        {"tag": "upgrade policy",
+         "patterns": ["Can we upgrade our policy in between the financial year?"],
+         "responses": ["No, you can upgrade at the time of renewal or date of joining (which is later)"],
+         "context_set": ""
+        },
+        {"tag": "medical benefits",
+         "patterns": ["What are the flexi plans and their details?","What are the emergency help/benefits provided to employees like medical, facility?","What are the categories under mediclaim policies like meternity, surgery, etc.?","What is the category-wise amount bifurcation under cashless policy?"],
+         "responses": ["Please refer mediclaim policy for detail at Iconnect - Policies and Documents  - Infoedge Policies and procedure"],
+         "context_set": ""
+        },
+        {"tag": "procedure for VPF",
+         "patterns": ["What is the procedure for Voluntary Employee Provident Fund (VPF)?"],
+         "responses": ["login @ https://myapps.microsoft.com/infoedge.com and then select 'My Pay' app, apply for VPF as per your choice"],
+         "context_set": ""
+        },
+        {"tag": "withdraw EPF",
+         "patterns": ["What is the procedure to withdraw EPF?"],
+         "responses": ["Login to PF account with UAN and apply online"],
+         "context_set": ""
+        },
+        {"tag": "POSH",
+         "patterns": ["Who is the first person to raise the complaint of POSH?"],
+         "responses": ["You should register your complaint with the internal committee by writing an email at 'POSH@naukri.com' "],
+         "context_set": ""
+        },
+        {"tag": "IJP work level",
+         "patterns": ["In IJP, can I apply for position of my next work level?"],
+         "responses": ["Job will be posted with defined WLs. You can apply for roles which are at your current WL or at 1 level above."],
+         "context_set": ""
+        },
+        {"tag": "IJP confidential",
+         "patterns": ["Will my IJP application be kept confidential?"],
+         "responses": ["Yes, your application will be kept confidential throughout the Interview Process. Only if and when you get selected for the position applied for, and you accept, will the information be shared with your manager."],
+         "context_set": ""
+        },
+        {"tag": "cooling period between IJP",
+         "patterns": ["Is there any cooling period between IJP applications?"],
+         "responses": ["There is no cooling period between IJP applications"],
+         "context_set": ""
+        },
+        {"tag": "interview panel in IJP",
+         "patterns": ["Who all are a part of Interview panel in IJP?"],
+         "responses": ["Interview Panel comprises of HR Business Partner, Hiring Manager and Business Head of the open position"],
+         "context_set": ""
+        },
+        {"tag": "change decision on IJP",
+         "patterns": ["Can I change my decision on movement post I have accepted the role change from applied IJP?"],
+         "responses": ["Once accepted, you are expected to comply with the movement decision"],
+         "context_set": ""
+        },
+        {"tag": "compensatory off",
+         "patterns": ["What is comp Off?","What is Compensatory Leave?"],
+         "responses": ["Comp Off is a leave, which you get on working on your off day"],
+         "context_set": ""
+        },
+        {"tag": "generate compensatory off",
+         "patterns": ["How can I generate Compensatory Off?"],
+         "responses": ["By working on your off day (except special leave)."],
+         "context_set": ""
+        },
+        {"tag": "shift special leave",
+         "patterns": ["Can I get comp off by working on my special leave?","Can I take 2 special leaves in a year?","My Birtdhay / Anniversary is on weekend, can I take leave on other working day?"],
+         "responses": ["No"],
+         "context_set": ""
+        },
+        {"tag": "comp off",
+         "patterns": ["By when can we use our comp off?"],
+         "responses": ["Within 2 months"],
+         "context_set": ""
+        },
+        {"tag": "special leave",
+         "patterns": ["What is special leave?","Why it is called as special leave?"],
+         "responses": ["Birthday / Anniversary Leave is consider as special leave","No deduction from your earned leave balance"],
+         "context_set": ""
+        },
+        {"tag": "Referral bonus",
+         "patterns": ["What is Referral bonus?"],
+         "responses": ["You earn when your referred candidate join Infoedge and complete 90 days"],
+         "context_set": ""
+        },
+        {"tag": "metro station",
+         "patterns": ["Which is the nearest metro station?"],
+         "responses": ["Botanical Garden"],
+         "context_set": ""
+        }
+   ]
+}
